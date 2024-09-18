@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1D1448;
+}
+
+.stopwatch-container {
+    text-align: center;
+    color: white;
+}
+
+.clock-face {
+    position: relative;
+    width: 200px; /* Size of the clock face */
+    height: 200px;
+    border-radius: 50%; /* Make it circular */
+    background-color: #333; /* Dark circle background */
+    border: 5px solid #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-hand {
+    position: absolute;
+    width: 4px; /* Thickness of the hand */
+    height: 100px; /* Length of the hand (adjust this based on clock face) */
+    background-color: white; /* Color of the hand */
+    bottom: 50%; /* Align the hand's bottom at the center of the clock */
+    left: calc(50% - 2px); /* Center the hand horizontally */
+    transform-origin: bottom center; /* Rotate from the bottom center */
+    transform: rotate(0deg); /* Initial position */
+}
+
+
+
+.time-display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.control-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reset {
+    background-color: #fff;
+    color: #000;
+}
+
+.start {
+    background-color: #faff00;
+    color: #000;
+}
+
+.pause {
+    background-color: #faff00;
+    color: #000;
+}
+
+.danger {
+    background-color: red !important;
+    color: white;
+}
