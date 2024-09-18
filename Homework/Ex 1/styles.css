@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.common-button {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: #13829B;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.line {
+    width: 100%;
+}
+.main {
+    display: flex;
+}
+.main-right {
+    width: 50%;
+}
+.main-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 50%;
+}
+.main-right img {
+    width: 100%;
+}
+.main-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.main-left-top h1 {
+    font-size: 50px;
+    width: 70%;
+
+}
+.main-left-top p{
+    width: 65%;
+}
+.main-left-bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.section-2 {
+
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px;
+}
+.container hr {
+    border: 2px solid #FCC29A;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #000000;
+}
+.card h3 {
+    font-size: 25px;
+}
+
+.card i {
+    font-size: 20px;
+    color: #13829B;
+
+}
+.readmore {
+    color: #13829B;
+}
+.donation-section {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donation-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.image-block {
+    flex: 1;
+    height: 300px; /* Fixed height for uniformity */
+
+}
+.text h2 {
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.image-block img {
+    width: 600px;
+}
+
+.image1 {
+    background-image: url('Component 10.png');
+}
+
+.image2 {
+    background-image: url('Component 11.png');
+}
+
+.image3 {
+    background-image: url('Component 12.png');
+}
+
+.section-3 {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDE9C9;
+    gap: 50px;
+    margin-top: 200px;
+}
+
+.cont {
+    display: flex;
+    gap: 90px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.part h4 {
+    font-size: 25px;
+    color: #13829B;
+}
+.part-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.part>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part img {
+    width: 260px;
+}
+
+.white {
+    width: 170px;
+    height: 50px;
+    border-radius: 8px;
+    color: #13829B;
+    border: 2px solid #13829B;
+    cursor: pointer;
+}
+
+.help-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-block {
+    flex: 1;
+    max-width: 600px;
+}
+
+.text-block h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.text-block p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 15px 25px;
+    background-color: #13829B;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Add specific images and shapes for the two image blocks */
+.image1 img{
+    width: 600px;
+
+}
+
+.in-touch{
+    display: flex;
+}
+
+.in-touch-left {
+    width: 70%;
+}
+.in-touch-left img{
+    width: 100%;
+}
+.in-touch-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 60%;
+}
+.in-touch-right button {
+    border: none;
+    cursor: pointer;
+}
+.in-touch-right p{
+    font-size: 20px;
+}
+.social i{
+    font-size: 40px;
+    cursor: pointer;
+}
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+
